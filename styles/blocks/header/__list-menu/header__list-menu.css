@@ -8,4 +8,9 @@
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+  bottom: 0.5vh;
+  position: relative;
+  padding: 0 0 1.7vh 0;
+  border-bottom: 0.1vh solid #BDBDBD;
+  margin: 0;
 }

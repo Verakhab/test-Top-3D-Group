@@ -1,6 +1,6 @@
 .header__list {
   display: flex;
-  margin: 0;
-  padding: 0.75vh 0 0.5vh;
+  margin: 0vh 0 0.3vh 0;
+  padding: 0;
   list-style-type: none;
 }

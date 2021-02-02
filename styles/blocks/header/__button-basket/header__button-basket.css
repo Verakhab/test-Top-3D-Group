@@ -1,0 +1,14 @@
+.header__button-basket {
+  width: 10.5vw;
+  height: 3.3vh;
+  position: relative;
+  top: 1.5vh;
+  right: 0.7vw;
+  border-radius: 0.5vw;
+  border: 0;
+  background-color: #D2001C;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

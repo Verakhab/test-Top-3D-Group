@@ -7,15 +7,23 @@
 @import url('./__form/header__form.css');
 @import url('./__list-menu/header__list-menu.css');
 @import url('./__item/header__item.css');
+@import url('./__info-menu/header__info-menu.css');
+@import url('./__logo/header__logo.css');
+@import url('./__link-write/header__link-write.css');
+@import url('./__yandex/header__yandex.css');
+@import url('./__input/header__input.css');
+@import url('./__button/header__button.css');
+@import url('./__img-exit/header__img-exit.css');
+@import url('./__text-loginin/header__text-loginin.css');
+@import url('./__button-basket/header__button-basket.css');
 
 .header {
   max-width: 1440px;
   width: 94vw;
-  margin-top: 1.2vh;
+  margin-top: 1vh;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 0.9vw;
-  line-height: 0.8vw;
   color: #000000;
 }
