@@ -1,0 +1,5 @@
+@import url('./_social/header__list-item_social.css');
+
+.header__list-item {
+  padding-right: 1.3vw;
+}

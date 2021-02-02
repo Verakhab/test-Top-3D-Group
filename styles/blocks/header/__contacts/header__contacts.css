@@ -1,0 +1,5 @@
+.header__contacts {
+  display: flex;
+  justify-content: space-around;
+  background-color: #FED600;
+}

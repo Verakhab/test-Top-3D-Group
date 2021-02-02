@@ -1,0 +1,7 @@
+.header__item {
+  padding: 0 4.1vw 0 0;
+}
+
+.header__item:last-child {
+  padding: 0;
+}

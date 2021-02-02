@@ -1,0 +1,11 @@
+.header__list-menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}

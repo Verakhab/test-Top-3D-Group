@@ -1,0 +1,8 @@
+.header__list-item.header__list-item_social {
+  padding-right: 1.3vw;
+}
+
+.header__list-item.header__list-item_social:last-child {
+  padding-right: 0vw;
+}
+
