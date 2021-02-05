@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #FFFFFF;;
-  max-width: 1536px;
+  background-color: #FFFFFF;
+  max-width: 2560px;
+  margin: 0 auto;
 }

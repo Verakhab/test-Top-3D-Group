@@ -1,0 +1,20 @@
+.about__text-article {
+  width: 46vw;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.03vw;
+  line-height: 1.3vw;
+  letter-spacing: -0.7px;
+  text-align: start;
+  color: #4D4D4D;
+  margin: 0;
+}
+
+@media screen and (min-width: 2560px) {
+  .about__text-article {
+    line-height: 1.28vw;
+    letter-spacing: -1px;
+    color: #4D4D4D;
+  }
+}

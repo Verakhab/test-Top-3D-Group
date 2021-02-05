@@ -1,0 +1,13 @@
+.header__img {
+  max-width: 3vh;
+  width: 1vw;
+  position: relative;
+  right: 1.3vw;
+}
+
+@media screen and (min-width: 2560px) {
+  .header__img {
+    width: 1vw;
+    right: 1.6vw;
+  }
+}

@@ -1,0 +1,18 @@
+.see__move {
+  width: 94vw;
+  max-width: 2424px;
+  height: 36vw;
+  flex-direction: column;
+  background-color: #F9F9F9;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 8.5vw;
+}
+
+@media screen and (min-width: 2560px) {
+  .see__move {
+    width: 94vw;
+    top: 9.5vw;
+  }
+}

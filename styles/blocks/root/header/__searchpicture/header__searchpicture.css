@@ -1,0 +1,9 @@
+.header__searchpicture {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .header__searchpicture {
+    display: block;
+  }
+}

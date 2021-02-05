@@ -7,7 +7,8 @@
     <meta name="description" content="Тестовое задание для Top 3D Group">
     <meta name="keywords" content="Тест, Top 3D Group, Задание">
     <meta name="author" content="Denis Bakharev">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/png">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/png">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png">
     <link rel="stylesheet" href="styles/css/index.css">
     <title>Тестовое задание</title>
 </head>
@@ -16,37 +17,70 @@
         <header class="header">
           <div class="header__contacts">
             <ul class="header__list">
-              <li class="header__list-item">Санкт-Петербург <img class="header__contacts-img" src="./images/Vector1.png"></li>
-              <li class="header__list-item"><a class="header__list-tel" href="tel:+7 (812) 613-58-38">+7 (812) 613-58-38</a></li>
-              <li class="header__list-item">Пн-пт 10:00-19:00, сб-вс 10:00-17:00</li>
+              <li class="header__list-item">
+                Санкт-Петербург&#160&#160<img class="header__contacts-img" src="./images/Vector1.png">
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-tel" href="tel:+7 (812) 613-58-38">
+                  +7 (812) 613-58-38
+                </a>
+              </li>
+              <li class="header__list-item">
+                Пн-пт 10:00-19:00, сб-вс 10:00-17:00
+              </li>
             </ul>
             <ul class="header__list header__list_social">
               <li class="header__list-item">
-                <a class="header__link-write" href="mailto:partner@top3dgroup.com">
-                  Напишите нам
-                </a>
+                <address>
+                  <a class="header__link-write" href="mailto:partner@top3dgroup.com">
+                    Напишите нам
+                  </a>
+                </address>
               </li>
               <li class="header__list-item">
-                <a class="header__link-write" href="mailto:partner@top3dgroup.com">
-                  Связаться с директором
-                </a>
-              </li>
-              <li class="header__list-item header__list-item_social">
-                <a class="header__social" target="_blank" href="https://web.telegram.org/#/login"><img class="header__img" src="./images/telegram.png"></a></li>
-              <li class="header__list-item header__list-item_social">
-                <a class="header__social" target="_blank" href="https://www.skype.com/ru/"><img class="header__img" src="./images/skype.png"></a></li>
-              <li class="header__list-item header__list-item_social">
-                <a class="header__social" href="tel:+7 (812) 613-58-38">
-                  <img class="header__img" src="./images/tel.png">
-                </a>
+                <address>
+                  <a class="header__link-write" href="mailto:partner@top3dgroup.com">
+                    Связаться с директором
+                  </a>
+                </address>
               </li>
             </ul>
+            <nav>
+              <ul class="header__soc">
+                <li class="header__list-item header__list-item_social">
+                  <a class="header__social" target="_blank" href="https://web.telegram.org/#/login">
+                    <img class="header__img" src="./images/telega.svg">
+                  </a>
+                </li>
+                <li class="header__list-item header__list-item_social">
+                  <a class="header__social" target="_blank" href="https://www.skype.com/ru/">
+                    <img class="header__img" src="./images/skype.svg">
+                  </a>
+                </li>
+                <li class="header__list-item header__list-item_social">
+                  <a class="header__social" href="tel:+7 (812) 613-58-38">
+                    <img class="header__img" src="./images/tel.svg">
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div class="header__info">
-            <div class="header__form">
+            <div class="header__form-wrapper">
+              <img class="header__menu-picture" src="./images/men.png">
               <img class="header__logo" src="./images/logo.svg">
-              <span class="header__slogan">Ваш эксперт<br> на рынке <span style="color:red;">3D</span>-техники</span>
-              <img class="header__yandex" src="./images/Yandex.png">
+              <p class="header__slogan">
+                Ваш эксперт<br> на рынке <span style="color:#D2001C;">3D</span>-техники
+              </p>
+              <div class="header__contact">
+                <a class="header__list-tel" href="tel:+7 (812) 613-58-38">
+                  +7 (812) 613-58-38
+                </a>
+                <p class="header__list-item">
+                  Пн-пт 10:00-19:00, сб-вс 10:00-17:00
+                </p>
+              </div>
+              <img class="header__yandex" src="./images/ya.svg">
               <form class="header__form" novalidate name="search">
                 <input
                   type="text"
@@ -59,27 +93,193 @@
                 >
                 <button type="submit" class="button header__button">Найти</button>
               </form>
-              <img class="header__img-exit" src="./images/Exit.png">
-              <span class="header__text-loginin">Войти</span>
+              <img class="header__img-exit" src="./images/exit.svg">
+              <p class="header__text-loginin">Войти</p>
               <button class="header__button-basket">
                 <img class="header__img-basket" src="./images/Basket.png">
                 &#160&#160Корзина пуста
               </button>
+              <img class="header__img-basket-two" src="./images/basketred.png">
+              <img class="header__searchpicture" src="./images/searchpicture.png">
             </div>
-            <div class="header__info-menu">
+            <nav class="header__info-menu">
               <ul class="header__list-menu">
-                <li class="header__item"><a class="header__item-link">Акции</a></li>
-                <li class="header__item"><a class="header__item-link">О нас</a></li>
-                <li class="header__item"><a class="header__item-link">Мероприятия</a></li>
-                <li class="header__item"><a class="header__item-link">Оплата и доставка</a></li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/akcii/" target="_blank">
+                    Акции
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/o-kompanii.html" target="_blank">
+                    О нас
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/servisnoe-obsluzhivanie.html"
+                    target="_blank">
+                    Мероприятия
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/oplata-i-dostavka.html"
+                    target="_blank">
+                    Оплата и доставка
+                  </a>
+                </li>
                 <li class="header__item"><a class="header__item-link">Что с моим заказом?</a></li>
-                <li class="header__item"><a class="header__item-link">Гос. закупки</a></li>
-                <li class="header__item"><a class="header__item-link">Блог</a></li>
-                <li class="header__item"><a class="header__item-link">Мастер-классы</a></li>
-                <li class="header__item"><a class="header__item-link">Контакты</a></li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/tender.html" target="_blank">
+                    Гос. закупки
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/blog/" target="_blank">
+                    Блог
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/master-klass.html" target="_blank">
+                    Мастер-классы
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__item-link" href="https://top3dshop.ru/contacts.html" target="_blank">
+                    Контакты
+                  </a>
+                </li>
               </ul>
-            </div>
+            </nav>
+            <nav class="header__info-menu header__info-menu_market">
+              <ul class="header__list-menu header__list-menu_market">
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    3D-принтеры&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    3D-сканеры&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Станки&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Роботы&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Образование&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Стоматологам&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Гаджеты&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Материалы&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    ПО&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Решения&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Учебный центр&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+                <li class="header__item header__item_market">
+                  <a class="header__item-link header__item-link_market">
+                    Услуги&#160<img class="header__img-market" src="./images/str.svg">
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </header>
+        <main class="content">
+          <section class="about">
+            <img class="about__img" src="./images/MaskGroup.png">
+            <div class="about__wrapper">
+              <div class="about__title">
+                <h1 class="title">
+                  Твоя работа<br>в крупнейшем интеграторе цифрового производства
+                </h1>
+                <button class="about__button" href="mailto:partner@top3dgroup.com">Отправить резюме</button>
+                <p class="about__agree">
+                  Нажимая кнопку, вы соглашаетесь<br>на обработку персональных данных.
+                </p>
+              </div>
+              <article class="about__text">
+                <p class="about__text-article">
+                  Top 3D Shop – лидер по продажам 3D-оборудования в России и странах СНГ.
+                  В 2018 мы стали лучшим интегратором 3D оборудования по аддитивным технологиям и цифровому
+                  производству по версии <a class="about__link"
+                  href="https://top3dshop.ru/" target="_blank">
+                  <span style="color:#D2001C;">3D Print Awards</span></a>.
+                  <br>
+                  <br>
+                  За 6 лет работы более 10 000 клиентов по всей России и СНГ выбрали Top 3D Shop.
+                  В 2018 наш оборот составил 600 млн. рублей, в компании работает более 100 сотрудников.
+                  <br>
+                  <br>
+                  Новая цель: 1 млрд торгового оборота в этом году и выход на международные рынки. Если вы —
+                  целеустремленный специалист, готовый учиться новым навыкам и учить других, мыслите не
+                  просто как исполнитель, а как владелец своего направления, то нам по пути!
+                </p>
+              </article>
+            </div>
+          </section>
+          <section class="see">
+            <h2 class="see__title">
+              Лучше один раз увидеть:&#160&#160&#160&#160<img class="see__img-line" src="./images/Line1.png">
+            </h2>
+            <div class="see__link">
+              <p class="see__item">
+                <a class="see__item-link" href="https://top3dshop.ru/" target="_blank">
+                  Как устроена наша компания изнутри&#160&#160&#160&#160&#62
+                </a>
+              </p>
+              <p class="see__item">
+                <a class="see__item-link" href="https://top3dshop.ru/" target="_blank">
+                  Как создавалась компания - необычная история&#160&#160&#160&#160&#62
+                </a>
+              </p>
+              <p class="see__item">
+                <a class="see__item-link" href="https://top3dshop.ru/" target="_blank">
+                  Читай о нас на 3D Today&#160&#160&#160&#160&#62
+                </a>
+              </p>
+            </div>
+            <div class="see__move">
+              <div class="see__title-video">
+                <h3 class="see__title-text">Видео о нас</h3>
+                <img class="see__title-img" src="./images/strel.png">
+              </div>
+              <div class="see__video">
+                <img class="see__video-img" src="./images/youtube1.png">
+                <img class="see__video-img" src="./images/youtube2.png">
+              </div>
+            </div>
+          </section>
+        </main>
     </div>
 </body>

@@ -1,0 +1,18 @@
+.header__yandex {
+  position: relative;
+  top: 0.9vh;
+  width: 9vw;
+  max-width: 9vw;
+}
+
+@media screen and (max-width: 900px) {
+  .header__yandex {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .header__yandex {
+    top: 1vh;
+  }
+}

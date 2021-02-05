@@ -1,0 +1,42 @@
+.header__logo {
+  max-width: 64.5;
+  width: 4.2vw;
+  position: relative;
+  top: 0.5vh;
+  right: 0.2%;
+}
+
+@media screen and (max-width: 900px) {
+  .header__logo {
+    top: 0;
+    right: 1vw;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header__logo {
+    width: 4.7vw;
+    right: 2vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__logo {
+    width: 6vw;
+    right: 2vw;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .header__logo {
+    width: 37.55px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .header__logo {
+    max-width: 108.39px;
+    width: 5vw;
+    top: 0.7vh;
+  }
+}

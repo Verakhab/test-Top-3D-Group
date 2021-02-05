@@ -1,0 +1,17 @@
+.about__agree {
+  position: relative;
+  top: 3.8vw;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.83vw;
+  line-height: 1.2vw;
+  color: #C4C4C4;
+  margin: 0;
+}
+
+@media screen and (min-width: 2560px) {
+  .about__agree {
+    top: 3.9vw;
+  }
+}

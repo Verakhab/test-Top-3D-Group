@@ -1,0 +1,30 @@
+.header__list-tel {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 900px) {
+  .header__list-tel {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header__list-tel {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__list-tel {
+    font-size: 3.4vw;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+  .header__list-tel {
+    position: relative;
+    left: 2.5vw;
+    font-size: 3.5vw;
+  }
+}

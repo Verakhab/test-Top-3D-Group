@@ -1,0 +1,43 @@
+.header__slogan {
+  max-width: 20vh;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.85vw;
+  line-height: 1.2vw;
+  color: #000000;
+  position: relative;
+  top: 0.4vw;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .header__slogan {
+    top: 0;
+    right: 3vw;
+    font-size: 1.2vw;
+    line-height: 2vh;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header__slogan {
+    right: 6vw;
+    line-height: 1.55vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__slogan {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .header__slogan {
+    top: 0.6vh;
+    font-size: 0.9vw;
+    line-height: 1.2vw;
+    margin: 0;
+  }
+}

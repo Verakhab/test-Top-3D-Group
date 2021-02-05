@@ -1,0 +1,11 @@
+.header__img-basket {
+  max-width: 1.6vw;
+  width: 1.6vw;
+}
+
+@media screen and (min-width: 680px) and (max-width: 900px) {
+  .header__img-basket {
+    max-width: 2vw;
+    width: 2vw;
+  }
+}

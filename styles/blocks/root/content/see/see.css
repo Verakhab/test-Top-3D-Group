@@ -1,0 +1,25 @@
+@import url('./__title/see__title.css');
+@import url('./__img-line/see__img-line.css');
+@import url('./__link/see__link.css');
+@import url('./__item/see__item.css');
+@import url('./__item-link/see__item-link.css');
+@import url('./__move/see__move.css');
+@import url('./__title-video/see__title-video.css');
+@import url('./__video/see__video.css');
+@import url('./__title-text/see__title-text.css');
+@import url('./__video-img/see__video-img.css');
+@import url('./__title-img/see__title-img.css');
+
+.see {
+  height: 57vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 5.7vw;
+}
+
+@media screen and (min-width: 2560px) {
+  .see {
+    top: 4.7vw;
+  }
+}

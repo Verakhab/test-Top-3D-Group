@@ -1,0 +1,30 @@
+.header__list-item {
+  padding: 0 1.5vw 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .header__list-item {
+    font-size: 1.2vw;
+    margin: 0;
+    padding: 1vh 0 0 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header__list-item {
+    font-size: 1.5vw;
+    padding: 0.7vh 0 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__list-item {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .header__list-item {
+    padding: 0 1vw 0 0;
+  }
+}
