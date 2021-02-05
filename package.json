@@ -1,0 +1,28 @@
+{
+  "name": "test_3dprint",
+  "version": "1.0.0",
+  "description": "Employer's test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verakhab/test-Top-3D-Group.git"
+  },
+  "author": "Denis Bakharev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Verakhab/test-Top-3D-Group/issues"
+  },
+  "homepage": "https://github.com/Verakhab/test-Top-3D-Group#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.2.4"
+  }
+}
