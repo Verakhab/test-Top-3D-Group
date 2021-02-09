@@ -1,8 +1,0 @@
-.header__item.header__item_market {
-  padding: 1.4vh 1.1vw 0 0;
-  cursor: pointer;
-}
-
-.header__item.header__item_market:last-child {
-  padding: 1.4vh 0 0 0;
-}

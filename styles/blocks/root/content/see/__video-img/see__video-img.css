@@ -1,9 +1,0 @@
-.see__video-img {
-  width: 35.6vw;
-}
-
-@media screen and (min-width: 2560px) {
-  .see__video-img {
-    width: 36vw;
-  }
-}
