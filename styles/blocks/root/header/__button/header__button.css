@@ -1,5 +1,4 @@
 .header__button {
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 0.85vw;
@@ -10,27 +9,13 @@
   max-height: 2.5vw;
   position: absolute;
   right: 1.7vw;
-  border: 0.2vw solid #D2001C;
+  border: 0.2vw solid #d2001c;
   border-radius: 0.3vw;
-  color: #D2001C;
+  color: #d2001c;
   padding: 0;
   outline: none;
   background-color: #ffffff;
 }
-
-/* @media screen and (min-width: 425px) {
-  .header__button {
-    height: 3.7vh;
-    max-height: 3.7vh;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .header__button {
-    height: 3.7vh;
-    max-height: 3.7vh;
-  }
-} */
 
 @media screen and (min-width: 2560px) {
   .header__button {
@@ -39,6 +24,6 @@
     right: 2.9vw;
     height: 3.9vh;
     max-height: 3.9vh;
-    border: 0.15vw solid #D2001C;
+    border: 0.15vw solid #d2001c;
   }
 }

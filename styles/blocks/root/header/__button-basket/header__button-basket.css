@@ -8,13 +8,12 @@
   left: 0.2%;
   border-radius: 0.4vw;
   border: 0;
-  background-color: #D2001C;
+  background-color: #d2001c;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   outline: none;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 0.85vw;

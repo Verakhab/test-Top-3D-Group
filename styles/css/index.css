@@ -1,6 +1,6 @@
-@import url('../vendor/normalize.css');
-@import url('../vendor/fonts/fonts.css');
-@import url('../blocks/root/root.css');
-@import url('../blocks/root/header/header.css');
-@import url('../blocks/root/content/content.css');
-@import url('../blocks/root/title/title.css');
+@import url("../../node_modules/normalize.css/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../blocks/root/root.css");
+@import url("../blocks/root/header/header.css");
+@import url("../blocks/root/content/content.css");
+@import url("../blocks/root/title/title.css");

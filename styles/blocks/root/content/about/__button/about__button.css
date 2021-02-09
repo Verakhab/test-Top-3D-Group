@@ -1,5 +1,5 @@
 .about__button {
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 500;
   font-size: 0.97vw;
@@ -11,7 +11,7 @@
   height: 3vh;
   max-height: 3vh;
   color: #ffffff;
-  background-color: #D2001C;
+  background-color: #d2001c;
   border: 0;
   border-radius: 0.3vw;
   outline: none;

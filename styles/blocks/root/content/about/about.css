@@ -1,11 +1,11 @@
-@import url('./__img/about__img.css');
-@import url('./__wrapper/about__wrapper.css');
-@import url('./__title/about__title.css');
-@import url('./__text/about__text.css');
-@import url('./__text-article/about__text-article.css');
-@import url('./__link/about__link.css');
-@import url('./__button/about__button.css');
-@import url('./__agree/about__agree.css');
+@import url("./__img/about__img.css");
+@import url("./__wrapper/about__wrapper.css");
+@import url("./__title/about__title.css");
+@import url("./__text/about__text.css");
+@import url("./__text-article/about__text-article.css");
+@import url("./__link/about__link.css");
+@import url("./__button/about__button.css");
+@import url("./__agree/about__agree.css");
 
 .about {
   display: flex;

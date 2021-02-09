@@ -1,5 +1,4 @@
 .header__input {
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 0.85vw;
@@ -10,7 +9,7 @@
   max-height: 2.4vw;
   border-radius: 0.3vw;
   outline: none;
-  border: 0.2vw solid #BDBDBD;
+  border: 0.2vw solid #bdbdbd;
   opacity: 0.35;
 }
 

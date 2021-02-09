@@ -1,26 +1,21 @@
 const gulp = require('gulp');
-const postcss = require('gulp-postcss');
-const autoprefixer = require('autoprefixer');
-const concat = require('gulp-concat');
-const cleancss = require('gulp-clean-css');
 
-gulp.task('default', function(done) {
-	console.log("Gulp is running!");
-	done();
-});
+const html = require('./gulp/html');
+const styles = require('./gulp/styles');
+const fonts = require('./gulp/fonts');
+const imageMinify = require('./gulp/imageMinify');
+const clean = require('./gulp/clean');
 
+function setMode(isProduction = false) {
+  return cb => {
+    process.env.NODE_ENV = isProduction ? 'production' : 'development'
+    cb()
+  }
+}
 
-gulp.task ('styles', function(done) {
-	console.log("style is running!");
+const dev = gulp.parallel(html, styles, fonts, imageMinify);
 
-	return gulp.src('./styles/*/*.css')
+const build = gulp.series(clean, dev);
 
-
-	.pipe(postcss([autoprefixer]))
-	.pipe(cleancss())
-	.pipe(concat('style.css'))
-
-
-    .pipe(gulp.dest('styles'))
-    done();
-});
+module.exports.start = gulp.series(setMode(), build);
+module.exports.build = gulp.series(setMode(true), build);

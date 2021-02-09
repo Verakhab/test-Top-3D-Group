@@ -4,7 +4,10 @@
   "description": "Employer's test task",
   "main": "index.js",
   "scripts": {
-    "test": "npm run dev"
+    "start": "gulp start",
+    "build": "gulp build",
+    "test": "stylelint ./styles/**/*.css",
+    "stylelint-fix": "stylelint ./styles/**/*.css --fix"
   },
   "repository": {
     "type": "git",
@@ -18,11 +21,33 @@
   "homepage": "https://github.com/Verakhab/test-Top-3D-Group#readme",
   "devDependencies": {
     "autoprefixer": "^10.2.4",
+    "del": "^6.0.0",
     "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-html-bem-validator": "^1.0.5",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-svgstore": "^7.0.1",
     "gulp-uglify": "^3.0.2",
-    "postcss": "^8.2.4"
+    "gulp-w3c-html-validator": "^3.0.0",
+    "postcss": "^8.2.4",
+    "stylelint": "^13.9.0",
+    "stylelint-config-htmlacademy": "^0.1.4",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run build"
+    }
   }
 }

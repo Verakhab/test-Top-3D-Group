@@ -1,5 +1,6 @@
 .see__item-link {
-  border-bottom: 1px solid #4D4D4D;
+  font-family: "SF Pro Display";
+  border-bottom: 1px solid #4d4d4d;
   text-decoration: none;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }

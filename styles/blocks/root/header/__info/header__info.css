@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
-  box-shadow: 0 8px 33px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 33px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 900px) {
