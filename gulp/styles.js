@@ -7,7 +7,6 @@ const gulpAutoprefixer = require('gulp-autoprefixer');
 const autoprefixer = require('autoprefixer');
 const concat = require('gulp-concat');
 const postcss = require('gulp-postcss');
-const uglify = require('gulp-uglify');
 const gulpStylelint = require('gulp-stylelint');
 
 module.exports = function styles() {
@@ -39,5 +38,5 @@ module.exports = function styles() {
     .pipe(sourcemaps.write())
     .pipe(postcss([autoprefixer]))
     .pipe(concat('index.css'))
-    .pipe(gulp.dest('build/styles'))
+    .pipe(gulp.dest('dist/styles'));
 }

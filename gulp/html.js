@@ -9,5 +9,5 @@ module.exports = function html() {
     .pipe(htmlValidator.analyzer())
     .pipe(htmlValidator.reporter())
     .pipe(bemValidator())
-    .pipe(gulp.dest('build'))
+    .pipe(gulp.dest('dist'));
 }

@@ -5,6 +5,7 @@ const styles = require('./gulp/styles');
 const fonts = require('./gulp/fonts');
 const imageMinify = require('./gulp/imageMinify');
 const clean = require('./gulp/clean');
+const ghPages = require('./gulp/ghPages');
 
 function setMode(isProduction = false) {
   return cb => {
@@ -19,3 +20,4 @@ const build = gulp.series(clean, dev);
 
 module.exports.start = gulp.series(setMode(), build);
 module.exports.build = gulp.series(setMode(true), build);
+module.exports.deploy = gulp.series(ghPages);
